@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/* Header Styles Start From Here */
+#header-container {
+  width: 100%;
+  background-color: #ee7b9425;
+}
+#header-section {
+  display: flex;
+  width: 75%;
+  margin: auto;
+  gap: 3rem;
+}
+#header-title {
+  font-size: 4rem;
+  opacity: 100%;
+  color: #272727;
+  margin-bottom: 1.5rem;
+}
+#header-description {
+  color: #272727;
+  opacity: 60%;
+  margin-bottom: 1.5rem;
+}
+.btn {
+  background-color: #e55473;
+  color: white;
+  border: none;
+  border-radius: 10%;
+  padding: 0.4rem 0.6rem 0.4rem 0.6rem;
+}
+
+#cover-image {
+  width: 20rem;
+}
+
+/* Header Styles End Here */
