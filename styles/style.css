@@ -158,6 +158,10 @@
   opacity: 60%;
 }
 
+.off {
+  color: #e55473;
+}
+
 /* Instagram Styles Start From Here */
 #instagram-title-container {
   text-align: center;
