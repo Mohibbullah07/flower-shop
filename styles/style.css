@@ -90,3 +90,89 @@
   text-decoration: underline;
 }
 /* Featured Section Styles End Here */
+
+/* Service Section Styles Start From Here */
+#service-container {
+  background-color: #bd0d0d10;
+  width: 75%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+  padding: 1rem 1.5rem 1rem 1.5rem;
+  border-radius: 5px;
+}
+/* Service Section Styles End Here */
+
+/* Hot Deal Styles Start From Here */
+#hot-deal-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+#hot-deal-title {
+  font-size: 2rem;
+}
+#hot-deal-description {
+  color: #272727;
+  opacity: 60%;
+  margin: 1rem 0;
+}
+
+/* Hot Deal Styles End Here */
+
+/* Instagram Styles Start From Here */
+#instagram-title-container {
+  text-align: center;
+}
+#instagram-title {
+  font-size: 2rem;
+  color: #272727;
+}
+#instagram-description {
+  color: #272727;
+  opacity: 60%;
+  margin: 1rem 0;
+}
+#insta-img-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  width: 75%;
+  margin: auto;
+}
+.insta-img {
+  width: 15rem;
+  margin-bottom: 3rem;
+}
+
+/* Instagram Styles ENd Here */
+
+/* Latest Deal Styles From Here */
+#latest-deal-container {
+  background-image: url("/assert/images/Rectangle\ 9.png");
+  width: 75%;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+#lates-deal-title {
+  font-size: 2rem;
+  color: #272727;
+  padding-top: 4rem;
+  padding-bottom: 1rem;
+}
+#latest-deal-coupon {
+  color: #272727;
+  opacity: 60%;
+}
+
+#subscribe-input {
+  height: 1.5rem;
+  margin-bottom: 4rem;
+  margin-top: 1rem;
+}
+/* Latest Deal Styles End Here */
